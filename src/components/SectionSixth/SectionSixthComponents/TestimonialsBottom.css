@@ -1,0 +1,18 @@
+.testimonial-container {
+  width: max(50%, 300px);
+  height: max(300px, 150px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial-container button {
+  border: none;
+  font-size: 2rem;
+  background: none;
+  color: orange;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.testimonial-container button:hover {
+  transform: scale(1.3);
+}

@@ -1,0 +1,29 @@
+.section-five {
+  height: 150vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  font-family: "Geologica", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.tire-marks {
+  opacity: 0.04;
+  position: absolute;
+  z-index: -1999;
+  clip-path: polygon(
+    50% 37%,
+    88% 34%,
+    100% 10%,
+    100% 48%,
+    57% 48%,
+    17% 54%,
+    0 76%,
+    0% 70%,
+    0 34%,
+    17% 35%
+  );
+}

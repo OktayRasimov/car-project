@@ -1,0 +1,50 @@
+.stats-icons.tweak {
+  transform: rotate(90deg);
+}
+.car-info__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: relative;
+  margin-bottom: 25%;
+}
+.car-mpg,
+.car-hp,
+.car-avg {
+  display: flex;
+  gap: 1rem;
+  -webkit-align-items: center;
+}
+.car-mpg h1,
+.car-hp h1,
+.car-avg h1 {
+  font-size: 2.6rem;
+}
+.car-info__main h1 {
+  font-size: 4rem;
+  width: max(300px, 150px);
+}
+.car-stats__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.car-mpg {
+  -webkit-align-items: center;
+}
+.stats-icons {
+  font-size: 2rem;
+}
+.car-info__img {
+  position: absolute;
+  top: 120%;
+  left: 0;
+}
+.car-info__img img {
+  height: 200px;
+  width: auto;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.car-info__main {
+}

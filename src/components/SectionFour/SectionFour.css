@@ -1,0 +1,10 @@
+.section-four {
+  height: 25vh;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  margin-top: 2rem;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

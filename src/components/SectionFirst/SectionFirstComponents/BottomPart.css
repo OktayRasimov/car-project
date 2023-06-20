@@ -1,0 +1,32 @@
+.bottom-part__container {
+  height: 20vh;
+  width: 100%;
+  z-index: 99;
+  position: relative;
+
+  /* overflow: hidden; */
+}
+.porche {
+  z-index: -11;
+  top: -30px;
+  left: -16rem;
+}
+.lambo {
+  top: -30px;
+  left: 24rem;
+  z-index: -1;
+}
+
+.mercedes {
+  top: -30px;
+  left: 7rem;
+  z-index: -1;
+}
+
+.porche,
+.mercedes,
+.lambo {
+  position: absolute;
+  width: 700px;
+  height: auto;
+}
