@@ -72,10 +72,18 @@ const TopPart = () => {
               <a>
                 <Link to="/">Home</Link>
               </a>
-              <a>About</a>
-              <a>Vehicle Models</a>
-              <a>Our Team</a>
-              <a>Contact</a>
+              <a>
+                <Link to="/about">About</Link>
+              </a>
+              <a>
+                <Link to="/vehicles">Vehicle Models</Link>
+              </a>
+              <a>
+                <Link to="/team">Our Team</Link>
+              </a>
+              <a>
+                <Link to="/contact">Contact</Link>
+              </a>
             </motion.div>
           </div>
           <motion.h1

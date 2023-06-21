@@ -84,6 +84,8 @@
 }
 .navbar-links a {
   transition: all 0.4s;
+  text-decoration: none;
+  color: inherit;
 }
 .navbar-links a:hover {
   color: rgb(255, 255, 255);

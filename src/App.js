@@ -1,24 +1,20 @@
 import "./App.css";
-import SectionFirst from "./components/SectionFirst/SectionFirst";
-import SectionSecond from "./components/SectionSecond/SectionSecond";
-import SectionThird from "./components/SectionThird/SectionThird";
-import SectionFour from "./components/SectionFour/SectionFour";
-import SectionFifth from "./components/SectionFifth/SectionFifth";
-import SectionSixth from "./components/SectionSixth/SectionSixth";
-import SectionSeven from "./components/SectionSeven/SectionSeven";
-import SectionFinal from "./components/SectionFinal/SectionFinal";
-
+import Home from "./components/RouterComponents/Home";
+import About from "./components/RouterComponents/About/About";
+import Vehicles from "./components/RouterComponents/Vehicles/Vechicles";
+import { Route, Routes } from "react-router-dom";
+import Team from "./components/RouterComponents/Team/Team";
+import Contact from "./components/RouterComponents/Contact/Contact";
 function App() {
   return (
     <>
-      <SectionFirst />
-      <SectionSecond />
-      <SectionThird />
-      <SectionFour />
-      <SectionFifth />
-      <SectionSixth />
-      <SectionSeven />
-      <SectionFinal />
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/vehicles" element={<Vehicles />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
