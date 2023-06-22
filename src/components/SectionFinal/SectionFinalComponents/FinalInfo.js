@@ -9,7 +9,7 @@ const FinalInfo = () => {
           <span>CAR</span> Rental
         </h1>
         <p>
-          We offers a big range of vehicles for all your driving needs. We have
+          We offer a big range of vehicles for all your driving needs. We have
           the perfect car to meet your needs.
         </p>
         <div className="final-lil__info">
