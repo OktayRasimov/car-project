@@ -101,7 +101,7 @@ const TopPart = () => {
 
           <div className="top-part__additional">
             <button>
-              Available on the app stote{" "}
+              Available on the app store{" "}
               <HiOutlineArrowNarrowRight className="arrow-icon" />
             </button>
             <button
