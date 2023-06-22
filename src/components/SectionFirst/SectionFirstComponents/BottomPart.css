@@ -1,5 +1,6 @@
 .bottom-part__container {
-  height: 20vh;
+  /* height: 20vh; */
+  padding-bottom: 12em;
   width: 100%;
   z-index: 99;
   position: relative;

@@ -1,6 +1,6 @@
 .top-part__container {
-  height: 80vh;
   width: 100%;
+  padding-bottom: 4em;
   background-color: rgb(255, 187, 61);
   font-family: "Geologica", sans-serif;
   font-family: "Nunito Sans", sans-serif;
@@ -22,8 +22,8 @@
   border-radius: 60px;
 } */
 .top-part__container img {
-  width: auto;
-  height: 700px;
+  max-width: 100%;
+  height: auto;
   position: absolute;
   top: 20%;
   right: 5%;
