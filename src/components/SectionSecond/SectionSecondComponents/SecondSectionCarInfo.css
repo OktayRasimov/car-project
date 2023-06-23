@@ -29,3 +29,9 @@
   width: 100%;
   /* background-color: red; */
 }
+@media (width <= 600px) {
+  .second-section__filler {
+    width: 100%;
+    margin-bottom: 6em;
+  }
+}

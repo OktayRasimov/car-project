@@ -44,13 +44,13 @@
   }
   .lambo {
     top: -30px;
-    left: 8rem;
+    left: 5rem;
     z-index: -1;
   }
 
   .mercedes {
     top: -30px;
-    left: 1rem;
+    left: -1rem;
     z-index: -1;
   }
 }

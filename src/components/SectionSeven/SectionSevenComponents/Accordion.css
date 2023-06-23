@@ -10,7 +10,9 @@
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
+  background-color: white;
 }
 .accordion-question {
   display: flex;
@@ -41,4 +43,12 @@
 .accordion-answer.show p,
 .accordion-answer p {
   color: rgba(0, 0, 0, 0.425);
+}
+@media (width <= 600px) {
+  .accordion-container {
+    width: 80%;
+  }
+  .accordion-question h2 {
+    font-size: 1.4rem;
+  }
 }

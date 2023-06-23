@@ -41,3 +41,16 @@
   bottom: 0;
   right: 0;
 }
+@media (width <= 600px) {
+  .testimonial-inside h3 {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .testimonial-customer div h2 {
+    font-size: 1rem;
+    padding-bottom: 2.4em;
+  }
+  .testimonial-quote__icon {
+    font-size: 3rem;
+  }
+}

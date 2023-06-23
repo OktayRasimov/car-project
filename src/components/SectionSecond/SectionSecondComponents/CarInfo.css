@@ -46,5 +46,15 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
-.car-info__main {
+@media (width <= 600px) {
+  .car-info__img img {
+    height: 100px;
+  }
+  .car-info__img {
+    top: 110%;
+    left: 0;
+  }
+  .car-info__main h1 {
+    font-size: 3rem;
+  }
 }

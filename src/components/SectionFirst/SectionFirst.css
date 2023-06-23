@@ -3,4 +3,10 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  margin-bottom: 5.2em;
+}
+@media (width <= 600px) {
+  .section-first__container {
+    margin-bottom: 0;
+  }
 }

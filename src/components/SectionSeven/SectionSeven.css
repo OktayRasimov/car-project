@@ -8,6 +8,7 @@
   align-items: center;
   flex-direction: column;
   gap: 5rem;
+  overflow: hidden;
 }
 
 .accordion-lambo {
@@ -16,5 +17,11 @@
   left: -5%;
   width: auto;
   height: 300px;
-  z-index: -5555;
+  z-index: 1;
+}
+@media (width <= 600px) {
+  .accordion-lambo {
+    left: -40%;
+    top: 70%;
+  }
 }

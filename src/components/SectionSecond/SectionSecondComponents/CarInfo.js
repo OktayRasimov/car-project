@@ -75,7 +75,7 @@ const CarInfo = ({ car }) => {
       <AnimatePresence>
         <motion.div
           key={Math.random()}
-          initial={{ x: 400, opacity: 0 }}
+          initial={{ x: 300, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           exit={{ x: -300, opacity: 0 }}
           transition={{ duration: 0.3 }}

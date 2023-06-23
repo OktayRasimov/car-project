@@ -24,3 +24,19 @@
 
   font-family: "Nunito Sans", sans-serif;
 }
+@media (width <= 600px) {
+  .second-section__info {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2em;
+  }
+  .second-section__info h1 {
+    font-size: 3rem;
+    padding-bottom: 1em;
+  }
+  .second-section__info p {
+    font-size: 1.4rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1em;
+  }
+}

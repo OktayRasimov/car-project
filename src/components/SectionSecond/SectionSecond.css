@@ -7,3 +7,8 @@
   width: 100%;
   display: flex;
 }
+@media (width <= 600px) {
+  .section-second-info__container {
+    flex-direction: column;
+  }
+}
