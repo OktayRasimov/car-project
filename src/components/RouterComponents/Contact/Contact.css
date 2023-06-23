@@ -7,7 +7,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 50rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@
   display: flex;
   gap: 2rem;
   width: 80%;
-  height: 80%;
+  /* height: 80%; */
 }
 .contact-info__left {
   display: flex;
@@ -41,7 +41,7 @@
 .contact-info__left,
 .contact-info__right {
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
 }
 .contact-info__right {
   display: flex;
@@ -88,4 +88,35 @@
 }
 .contact-page__containers button:active {
   transform: scale(1.05);
+}
+@media (width <= 600px) {
+  .contact-page__containers {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4em 2em;
+  }
+  .contact-page__container {
+    width: 100%;
+
+    padding: 0;
+  }
+  .contact-info__left {
+    width: 100%;
+  }
+  .contact-info__right {
+    width: 100%;
+    gap: 1.4rem;
+  }
+  .contact-info__left h1 {
+    font-size: 2.4rem;
+    width: 100%;
+  }
+  .contact-info__left p {
+    font-size: 2rem;
+    width: 100%;
+  }
 }

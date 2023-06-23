@@ -5,7 +5,7 @@
 }
 .team-container {
   width: 100%;
-  height: fit-content;
+  /* height: fit-content; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,4 +46,20 @@
   width: 100%;
   height: 60%;
   overflow: hidden;
+}
+@media (width <= 600px) {
+  .team-container {
+    padding: 2em 0;
+  }
+  .team-employee__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  .team-employee__each {
+    width: 15rem;
+  }
 }

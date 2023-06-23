@@ -4,7 +4,8 @@
 }
 .footer-number {
   width: 100%;
-  height: 15vh;
+  /* height: 15vh; */
+  padding: 1.4em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,4 +27,15 @@
 }
 .footer-number h2 {
   color: white;
+}
+@media (width <= 600px) {
+  .footer-number {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .footer-number h1 {
+    font-size: 1.4rem;
+  }
 }

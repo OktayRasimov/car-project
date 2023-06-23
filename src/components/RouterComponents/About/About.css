@@ -1,5 +1,4 @@
 .about-page {
-  height: fit-content;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -21,17 +20,14 @@
   color: rgba(0, 0, 0, 0.418);
 }
 .about-info__container {
-  height: 80vh;
   width: 100%;
+  padding: 3em 0;
   display: flex;
   gap: 1rem;
   justify-content: center;
   align-items: center;
 }
-.meeting-img {
-  height: auto;
-  width: 600px;
-}
+
 .about-info {
   width: 50%;
 
@@ -67,4 +63,28 @@
 }
 .about-icons {
   color: orange;
+}
+@media (width <= 600px) {
+  .about-info__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .about-info {
+    width: 90%;
+  }
+  .about-info h2 {
+    font-size: 2.2rem;
+    padding-bottom: 0.2em;
+  }
+  .about-info__lil {
+    font-size: 2.4rem;
+    padding-bottom: 1em;
+  }
+  .about-info p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
 }

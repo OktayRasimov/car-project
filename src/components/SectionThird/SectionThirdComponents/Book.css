@@ -26,11 +26,11 @@
   gap: 1rem;
   place-items: center;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .grid-item__section {
   width: 90%;
-  height: 100%;
+  /* height: 100%; */
 }
 .grid-item__header {
   display: flex;
@@ -192,7 +192,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 2rem;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
 .booking-personal__info h2 {
@@ -200,7 +200,7 @@
   font-size: 2rem;
 }
 .recenter-grid {
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -289,8 +289,12 @@
   left: 0;
   height: 100vh;
   width: 100%;
-  background-color: rgba(78, 78, 78, 0.432);
+  background-color: rgba(78, 78, 78, 0.747);
   position: fixed;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  z-index: 3000;
 }
 @media (width <= 600px) {
   .section-third {

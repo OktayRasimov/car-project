@@ -141,7 +141,7 @@
     height: 250px;
     width: auto;
     border-radius: 23px;
-    top: 48%;
+    top: 40%;
     right: 0.8rem;
   }
   .top-part__additional {
@@ -151,5 +151,8 @@
   }
   .additional-button {
     padding-top: 1.6em;
+  }
+  .navbar-links {
+    display: none;
   }
 }

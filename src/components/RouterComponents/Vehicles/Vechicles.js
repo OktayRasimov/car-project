@@ -22,7 +22,7 @@ const Vehicles = () => {
       <MainNavbar name="Vehicle Models" />
       <div className="vehicles-container">
         <div className="car-list__grid">
-          <div className="car ">
+          <div className="car">
             <div className="car-inside__img-container">
               <img src={lambo} className="car-inside__img" />
             </div>
