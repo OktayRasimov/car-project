@@ -10,7 +10,7 @@
 }
 .company-info__each {
   display: flex;
-  height: 50%;
+  /* height: 50%; */
   align-items: flex-start;
   flex-direction: column;
   gap: 1.4rem;

@@ -3,7 +3,7 @@
   width: 100%;
 }
 .section-second-info__container {
-  height: 75vh;
+  /* height: 75vh; */
   width: 100%;
   display: flex;
 }

@@ -1,5 +1,6 @@
 .section-sixt {
-  height: 80vh;
+  /* height: 80vh; */
+  padding: 3em 0;
   width: 100%;
   background-color: rgba(238, 238, 238, 0.507);
   display: flex;
