@@ -292,3 +292,12 @@
   background-color: rgba(78, 78, 78, 0.432);
   position: fixed;
 }
+@media (width <= 600px) {
+  .section-third {
+    padding: 2rem 4rem;
+  }
+  .grid-items {
+    display: flex;
+    flex-direction: column;
+  }
+}
