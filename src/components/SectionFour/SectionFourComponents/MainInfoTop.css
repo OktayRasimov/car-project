@@ -20,7 +20,15 @@
   text-align: center;
 }
 @media (width <=600px) {
+  .main-info__top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .main-info__top h2 {
+    font-size: 1.2rem;
+  }
   .main-info__top h1 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }

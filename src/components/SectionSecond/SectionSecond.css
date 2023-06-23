@@ -11,4 +11,7 @@
   .section-second-info__container {
     flex-direction: column;
   }
+  .section-second__container {
+    overflow: hidden;
+  }
 }
