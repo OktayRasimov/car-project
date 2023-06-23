@@ -19,3 +19,8 @@
   font-size: 1.8rem;
   text-align: center;
 }
+@media (width <=600px) {
+  .main-info__top h1 {
+    font-size: 1.4rem;
+  }
+}
