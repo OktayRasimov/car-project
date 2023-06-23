@@ -63,3 +63,12 @@
 .full-time__work {
   color: rgb(211, 137, 0);
 }
+@media (width <= 600px) {
+  .company-info__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-final {
+    padding: 1em 0;
+  }
+}
