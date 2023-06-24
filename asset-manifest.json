@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car-project/static/css/main.2370d6da.css",
-    "main.js": "/car-project/static/js/main.b4153b15.js",
+    "main.css": "/car-project/static/css/main.3e0d22f3.css",
+    "main.js": "/car-project/static/js/main.f9ccf4ce.js",
     "static/media/rangeVehicleModel.png": "/car-project/static/media/rangeVehicleModel.2fa94696e79da041594b.png",
     "static/media/urusFront.png": "/car-project/static/media/urusFront.8cfb6aa901967aafe50b.png",
     "static/media/lamboFront.png": "/car-project/static/media/lamboFront.b0af4dffc73a9a330884.png",
@@ -48,11 +48,11 @@
     "static/media/icopopa.png": "/car-project/static/media/icopopa.0441e71f488472b6089a.png",
     "static/media/bookBackground.svg": "/car-project/static/media/bookBackground.60343675ca4c9ca9e290.svg",
     "index.html": "/car-project/index.html",
-    "main.2370d6da.css.map": "/car-project/static/css/main.2370d6da.css.map",
-    "main.b4153b15.js.map": "/car-project/static/js/main.b4153b15.js.map"
+    "main.3e0d22f3.css.map": "/car-project/static/css/main.3e0d22f3.css.map",
+    "main.f9ccf4ce.js.map": "/car-project/static/js/main.f9ccf4ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.2370d6da.css",
-    "static/js/main.b4153b15.js"
+    "static/css/main.3e0d22f3.css",
+    "static/js/main.f9ccf4ce.js"
   ]
 }
