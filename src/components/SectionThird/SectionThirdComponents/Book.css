@@ -307,4 +307,42 @@
   .grid-items button {
     margin-left: 1.6em;
   }
+  .booking-modal.active-modal {
+    width: 90%;
+    left: -40%;
+  }
+  .booking-full__info {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .booking-full__right {
+    width: 90%;
+    gap: 2rem;
+  }
+  .booking-full__left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .booking-info__time {
+    display: flex;
+    justify-content: center;
+  }
+  .booking-personal__info {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .bootleg-text {
+    text-align: center;
+  }
+  .booking-confirm__button button {
+    width: 100%;
+  }
 }

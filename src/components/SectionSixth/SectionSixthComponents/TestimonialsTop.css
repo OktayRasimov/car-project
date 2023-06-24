@@ -16,12 +16,17 @@
   font-weight: 900;
 }
 @media (width <=600px) {
+  .testimonials-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
   .testimonials-top h1 {
     font-size: 2rem;
-    text-align: center;
   }
   .testimonials-top h2 {
     font-size: 1.4rem;
+    /* text-align: center; */
   }
   .testimonials-top p {
     font-size: 1rem;

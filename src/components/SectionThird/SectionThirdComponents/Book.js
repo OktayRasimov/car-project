@@ -358,7 +358,7 @@ const Booking = () => {
         </div>
         <div className="recenter-grid">
           <div className="booking-personal__info">
-            <h2>Personal Information</h2>
+            <h2 className="bootleg-text">Personal Information</h2>
             <div className="personal-info__containers grid-1">
               <h2>First Name</h2>
               <input placeholder="Enter your first name" />

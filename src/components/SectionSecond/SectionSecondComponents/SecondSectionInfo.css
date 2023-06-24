@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 6rem;
+  margin-top: 6em;
 }
 .second-section__info h1 {
   font-size: 6rem;

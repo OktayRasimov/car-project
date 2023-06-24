@@ -1,6 +1,11 @@
 import "./TopPart.css";
-import { AiOutlineCrown, AiOutlineArrowUp } from "react-icons/ai";
+import {
+  AiOutlineCrown,
+  AiOutlineArrowUp,
+  AiOutlineClose,
+} from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
+import { MdOutlineSegment } from "react-icons/md";
 import phoneMain from "../../../images/phonemainpage.png";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { gsap } from "gsap";
@@ -39,8 +44,43 @@ const TopPart = () => {
     };
   }, []);
 
+  // navbar active check
+  const [navbar, setNavbar] = useState(false);
+
+  const navbarChecker = () => {
+    setNavbar(!navbar);
+  };
+
   return (
     <>
+      <div
+        style={{ left: navbar && 0, display: navbar && "flex" }}
+        className={
+          !navbar
+            ? `mobile-navbar__container`
+            : `mobile-navbar__container active`
+        }
+      >
+        <AiOutlineClose
+          onClick={navbarChecker}
+          className="navbar-inside__icon"
+        />
+        <a>
+          <Link to="/">Home</Link>
+        </a>
+        <a>
+          <Link to="/about">About</Link>
+        </a>
+        <a>
+          <Link to="/vehicles">Vehicle Models</Link>
+        </a>
+        <a>
+          <Link to="/team">Our Team</Link>
+        </a>
+        <a>
+          <Link to="/contact">Contact</Link>
+        </a>
+      </div>
       <motion.div
         ref={ref}
         variants={{
@@ -85,6 +125,21 @@ const TopPart = () => {
                 <Link to="/contact">Contact</Link>
               </a>
             </motion.div>
+            <motion.div
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1 },
+              }}
+              initial="hidden"
+              animate={mainControls}
+              transition={{ duration: 0.6, delay: 1.8 }}
+              viewport={{ once: true }}
+            >
+              <MdOutlineSegment
+                className="navbar-mobile"
+                onClick={navbarChecker}
+              />
+            </motion.div>
           </div>
           <motion.h1
             variants={{
@@ -100,11 +155,28 @@ const TopPart = () => {
           </motion.h1>
 
           <div className="top-part__additional">
-            <button>
+            <motion.button
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1 },
+              }}
+              initial="hidden"
+              animate={mainControls}
+              transition={{ duration: 0.6, delay: 1.8 }}
+              viewport={{ once: true }}
+            >
               Available on the app store{" "}
               <HiOutlineArrowNarrowRight className="arrow-icon" />
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              variants={{
+                hidden: { opacity: 0 },
+                visible: { opacity: 1 },
+              }}
+              initial="hidden"
+              animate={mainControls}
+              transition={{ duration: 0.6, delay: 1.8 }}
+              viewport={{ once: true }}
               className="additional-button"
               onClick={() => {
                 gsap.to(window, {
@@ -114,7 +186,7 @@ const TopPart = () => {
               }}
             >
               Book Car Now
-            </button>
+            </motion.button>
           </div>
         </motion.div>
         <motion.img
