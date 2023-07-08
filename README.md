@@ -7,11 +7,17 @@
 
 ## Tech Used for the Project 
 
---
+---
 
  * <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/htmllogo.png?raw=true' width='150' height='150'>
+
+
  * <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/csslogo.png?raw=true' width='150' height='150'>
+
+
  * <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/jslogo.png?raw=true' width='150' height='150'>
+
+
  * <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/reactlogo.png?raw=true' width='150' height='150'>
    
  
