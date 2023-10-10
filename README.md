@@ -3,7 +3,7 @@
 <p id="description">An app where you can effortlesly book cars</p>
 
 <h2 align="elft" id="title">Project Background</h1>
-<p id="description">This is the first project i made after learning just the basics of React.Clean Code wise its very beginner like </p>
+<p id="description">This is the first real project(right after personal-projects repo) i made after learning just the basics of React.Clean Code wise its very beginner like </p>
 
 ![mainpic](https://github.com/oktayrasimov/car-project/blob/master/src/images/github-test.png?raw=true)
 
