@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # car-project
 =======
 # React Car Rental Project
@@ -10,3 +11,6 @@
  * [![React](https://raw.githubusercontent.com/jalbertsr/logo-badge-images/master/img/react_logo.png)](https://facebook.github.io/react/)
  *
 >>>>>>> master
+=======
+
+>>>>>>> aa69269b58cfac557c07e11ccaa2f9cbf2a7b421
