@@ -40,3 +40,4 @@ Technologies used in the project:
 
 *   React Router
 *   React
+*   Figma
