@@ -1,16 +1,38 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# car-project
-=======
-# React Car Rental Project
----
-![mainpic](https://github.com/oktayrasimov/car-project/blob/master/src/images/github-test.png?raw=true)
----
-## Tech Used for the Project
- * <img src='https://github.com/oktayrasimov/car-project/blob/master/src/images/jslogo.png?raw=true' width='150' height='150'>
- * [![React](https://raw.githubusercontent.com/jalbertsr/logo-badge-images/master/img/react_logo.png)](https://facebook.github.io/react/)
- *
->>>>>>> master
-=======
+<h1 align="center" id="title">Granite Rentals</h1>
 
->>>>>>> aa69269b58cfac557c07e11ccaa2f9cbf2a7b421
+<p id="description">An app where you can effortlesly book cars</p>
+
+<h2>🚀 Demo</h2>
+
+[https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
+
+  
+  
+![mainpic](https://github.com/oktayrasimov/car-project/blob/main/src/images/github-test.png?raw=true)
+---
+
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Open a file thats not an active repo</p>
+
+<p>2. Open git and run</p>
+
+```
+git clone https://github.com/OktayRasimov/car-project/tree/main
+```
+
+<p>3. Then in git navige to the cloned file</p>
+
+```
+ cd car
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   React Router
+*   React
