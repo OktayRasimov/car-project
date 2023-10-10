@@ -9,11 +9,6 @@
 
 [https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
 
-  
-  
-<h2>🧐 Features</h2>
-
-Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
