@@ -23,7 +23,7 @@
 <p>2. Open git and run</p>
 
 ```
-git clone https://github.com/OktayRasimov/car-project/tree/main
+git clone https://github.com/OktayRasimov/car-project
 ```
 
 <p>3. Then in git navige to the cloned file</p>
