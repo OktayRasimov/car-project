@@ -1,0 +1,118 @@
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 20rem; */
+  padding-bottom: 6em;
+  overflow: hidden;
+  position: relative;
+}
+.main-navbar h2 {
+  color: black;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 7rem;
+}
+.main-navbar-links {
+  margin-right: 3rem;
+  cursor: pointer;
+  height: fit-content;
+  font-family: "Geologica", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding-top: 1.2rem;
+  display: flex;
+  gap: 4rem;
+}
+.main-navbar-links a {
+  transition: all 0.4s;
+  text-decoration: none;
+  color: inherit;
+}
+.main-navbar-links a:hover {
+  transform: translateY(-3px);
+}
+.main-navbar__info {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.main-img {
+  position: absolute;
+  top: -120%;
+  left: 0;
+  opacity: 0.6;
+  z-index: -1;
+}
+.main-navbar__info h1 span {
+  font-size: 3.4rem;
+}
+
+.navbar-mobile__router {
+  display: none;
+  font-size: 4rem;
+  cursor: pointer;
+  color: black;
+}
+.navbar-mobile__router:hover {
+  transform: translateY(-3px);
+}
+
+.mobile-navbar__container-router.active {
+  display: flex;
+  left: 0;
+}
+.mobile-navbar__container-router {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  gap: 2rem;
+  left: 100%;
+  background-color: white;
+  transition: left 0.6s ease-in-out;
+  z-index: 99999999;
+}
+.mobile-navbar__container-router a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Geologica", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  color: inherit;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.mobile-navbar__container-router a:hover {
+  color: orange;
+
+  transform: translateY(-5px);
+}
+.navbar-inside__icon-router {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  font-size: 2rem;
+  color: orange;
+  transition: all 0.4s;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+@media (width <= 600px) {
+  .main-img {
+    left: -50%;
+  }
+  .main-navbar-links {
+    display: none;
+  }
+  .navbar-mobile__router {
+    display: flex;
+    padding-top: 0.2em;
+    transition: all 0.4s;
+  }
+}

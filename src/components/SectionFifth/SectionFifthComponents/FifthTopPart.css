@@ -1,0 +1,35 @@
+.fifth-toppart__container {
+  /* height: 60vh; */
+  padding: 4em 0;
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-part__img1 {
+  transform: translateX(5rem);
+}
+.top-part__img3 {
+  transform: translateX(-3rem);
+}
+.top-part__img2 {
+  z-index: 1;
+}
+.top-part__img3 {
+  z-index: 2;
+}
+.top-part__img1,
+.top-part__img2,
+.top-part__img3 {
+  height: 300px;
+
+  width: auto;
+}
+@media (width <= 600px) {
+  .top-part__img1,
+  .top-part__img2,
+  .top-part__img3 {
+    height: 120px;
+  }
+}

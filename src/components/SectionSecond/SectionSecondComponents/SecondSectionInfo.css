@@ -1,0 +1,43 @@
+.second-section__info {
+  /* height: 75vh; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 6rem;
+  margin-top: 6em;
+}
+.second-section__info h1 {
+  font-size: 6rem;
+  font-family: "Geologica", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  width: max(70%);
+  text-align: start;
+  color: rgb(19, 20, 32);
+}
+.second-section__info p {
+  font-size: 2rem;
+  width: max(50%);
+  text-align: start;
+  margin-right: 20%;
+  color: rgb(36, 33, 33);
+
+  font-family: "Nunito Sans", sans-serif;
+}
+@media (width <= 600px) {
+  .second-section__info {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 2em;
+  }
+  .second-section__info h1 {
+    font-size: 3rem;
+    padding-bottom: 1em;
+  }
+  .second-section__info p {
+    font-size: 1.4rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 1em;
+  }
+}

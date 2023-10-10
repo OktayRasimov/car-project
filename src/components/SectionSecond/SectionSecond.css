@@ -1,0 +1,17 @@
+.section-second__container {
+  /* height: 100vh; */
+  width: 100%;
+}
+.section-second-info__container {
+  /* height: 75vh; */
+  width: 100%;
+  display: flex;
+}
+@media (width <= 600px) {
+  .section-second-info__container {
+    flex-direction: column;
+  }
+  .section-second__container {
+    overflow: hidden;
+  }
+}

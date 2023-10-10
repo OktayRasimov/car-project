@@ -1,0 +1,13 @@
+.section-sixt {
+  /* height: 80vh; */
+  padding: 3em 0;
+  width: 100%;
+  background-color: rgba(238, 238, 238, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Geologica", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  gap: 4rem;
+}
