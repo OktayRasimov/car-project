@@ -1,6 +1,6 @@
 *   <h1 align="center" id="title">Granite Rentals</h1>
 
-<p id="description">An app where you can effortlesly book cars</p>
+<p id="description">Granite Rentals: A sleek React-powered web app with React Router integration, designed for luxury car enthusiasts. Easily book your dream car and explore a world of high-end automotive experiences. Enjoy a seamless, responsive, and user-friendly platform for your car rental needs.</p>
 
 <h2 align="elft" id="title">Project Background</h1>
 <p id="description">This is the first real project(right after personal-projects repo) i made after learning just the basics of React.Clean Code wise its very beginner like </p>
