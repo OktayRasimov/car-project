@@ -5,6 +5,8 @@
 <h2 align="elft" id="title">Project Background</h1>
 <p id="description">This is the first project i made after learning just the basics of React.Clean Code wise its very beginner like </p>
 
+![mainpic](https://github.com/oktayrasimov/car-project/blob/master/src/images/github-test.png?raw=true)
+
 <h2>🚀 Demo</h2>
 
 [https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
