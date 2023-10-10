@@ -2,6 +2,10 @@
 
 <p id="description">An app where you can effortlesly book cars</p>
 
+<h2 align="elft" id="title">Project Background</h1>
+<p id="description">This is the first project i made after learning just the basic of react.Clean Code wise its very beginner like </p>
+
+
 <h2>🚀 Demo</h2>
 
 [https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
