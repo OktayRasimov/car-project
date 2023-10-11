@@ -19,6 +19,11 @@ Technologies used in the project:
 *   React Router
 *   React
 *   Figma
+  
+Animation Libraries used:
+
+*   GSAP
+*   Framer Motion
 
 
 <h2>🛠️ Installation Steps:</h2>
