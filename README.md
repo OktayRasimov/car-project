@@ -12,6 +12,15 @@
 [https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
 
 
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   React Router
+*   React
+*   Figma
+
+
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Open a file thats not an active repo</p>
@@ -44,10 +53,3 @@ npm start
 
   
   
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   React Router
-*   React
-*   Figma
