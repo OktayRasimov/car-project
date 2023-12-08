@@ -1,9 +1,6 @@
-*   <h1 align="center" id="title">Granite Rentals</h1>
+- <h1 align="center" id="title">Granite Rentals</h1>
 
 <p id="description">Granite Rentals: A sleek React-powered web app with React Router integration, designed for luxury car enthusiasts. Easily book your dream car and explore a world of high-end automotive experiences. Enjoy a seamless, responsive, and user-friendly platform for your car rental needs.</p>
-
-<h2 align="elft" id="title">Project Background</h1>
-<p id="description">This is the first real project(right after personal-projects repo) i made after learning just the basics of React.Clean Code wise its very beginner like </p>
 
 ![mainpic](https://github.com/oktayrasimov/car-project/blob/master/src/images/github-test.png?raw=true)
 
@@ -11,20 +8,18 @@
 
 [https://oktayrasimov.github.io/car-project/](https://oktayrasimov.github.io/car-project/)
 
-
 <h2>💻 Built with</h2>
 
 Technologies used in the project:
 
-*   React Router
-*   React
-*   Figma
-  
+- React Router
+- React
+- Figma
+
 Animation Libraries used:
 
-*   GSAP
-*   Framer Motion
-
+- GSAP
+- Framer Motion
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -55,6 +50,3 @@ npm intall
 ```
 npm start
 ```
-
-  
-  
